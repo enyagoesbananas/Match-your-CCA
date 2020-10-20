@@ -7,11 +7,7 @@ print()
 
 tech1 = input("I enjoy building and fixing things.")
 
-outdoor1 = input("I'll go crazy if I am not out of the house for the whole day. I ike the outdoors very much.")
 
-music1 = input("I can see colours in my mind and feel very energised when i hear music.")
-
-tech2 = input("I know how to build apps and websites, and work very well with computers")
 
 outdoor2 = input("I'm good with tying knots and ropes, and am interested to learn survival skills.")
 
@@ -25,10 +21,10 @@ music_final = int(music1)+ int(music2)
 print()
 
 if tech_final > outdoor_final and tech_final > music_final:
-  print("You might be suitable for Infocomm club!")
+  print("You might be suitable for Infocomm club! Your Teacher woud then be Mr Gi")
 elif outdoor_final > music_final:
-  print("You might be stuiable for ODAC!")
+  print("You might be stuiable for ODAC! Your Teacher woud then be Mr Toh")
 else:
-  print("You might be suitable for Band!")
+  print("You might be suitable for Band! Your Teacher woud then be Mr Tan")
 
   
